@@ -1,0 +1,43 @@
+      <div className="jumbotron text-cetner">
+        <h2>Voteit</h2>
+      </div>
+
+      {/* 
+      <Feed>  
+        <ShowAddButton />
+        <FeedForm />
+
+        <FeedList>
+          <FeedForm />
+        </FeedList>
+      </Feed>
+       */}
+
+      <div className="container">
+        <button className="btn btn-success btn-block">Create New Item</button>
+      </div>
+
+      <form className="container">
+        <div className="form-group">
+          <input type="text" className="form-control" placeholder="Title" />
+          <input type="text" className="form-control" placeholder="Title" />
+          <button type="submit" className="btn btn-primary btn-block" >Add</button>
+        </div>
+      </form>
+
+      <br />
+      <br />
+
+      <div className="container">
+        <ul className="list-group">
+          <li className="list-froup-item">
+            <span className="badge badge-success">60</span>
+            <h4>JavaScript is fun</h4>
+            <span>Lexical scoping FTW</span>
+            <span>
+              <button id="up" className="btn btn-sm btn-primary">&uarr;</button>
+              <button id="down" className="btn btn-sm btn-primary">&darr;</button>
+            </span>
+          </li> 
+        </ul>
+      </div>
